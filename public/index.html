@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DB Explorer</title>
+	<link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css">
+	<style>
+    body {
+      overflow : hidden;
+    }
+		.dvm-table {
+			width : 100%;
+			margin : 0 auto;
+		}
+		.botones {
+			float : right;
+			width: 7%;
+			margin: 3px;
+      margin-top : 2%;
+			padding : 2px;
+		}
+		.table-container {
+			display : inline-block;
+			width : 99%;
+			height : 63vh;
+			margin : 0 auto;
+			padding : 3px;
+		}
+		.table-container-dvm {
+			display : inline-block;
+			width : 91%;
+			height : 63vh;
+			margin : 0 auto;
+			padding : 3px;
+		}
+		.btn-botonera {
+			margin : 2px;
+		}
+		.tab-content {
+			width : 100%;
+		}
+		.seccion-left {
+			float : left;
+		}
+		.seccion-right {
+			float : right;
+		}
+		.jobs-table {
+			height : 180px;
+			overflow: hidden;
+		}
+		.nav-tabs li {
+			cursor : pointer;
+		}
+		.modal-open .modal {
+		  overflow-x: hidden;
+		  overflow-y: hidden;
+		}
+		.btn-file input[type=file] {
+  		    position: absolute;
+    		top: 0;
+    		right: 0;
+    		min-width: 100%;
+    		min-height: 100%;
+    		font-size: 100px;
+    		text-align: right;
+    		opacity: 0;
+    		outline: none;
+    		background: white;
+    		cursor: inherit;
+    		display: block;
+		}
+    .volver {
+      width : 5%;
+      display : inline-block;
+    }
+		.filtros {
+      width : 94%;
+      display : inline-block;
+			text-align: center;
+			padding : 1%;
+		}
+		.ordenar {
+			width : 20%;
+		}
+		.tab-script-content {
+			width : 100%;
+			height : 250px;
+		}
+		.th-inner {
+			width: 100%;
+			overflow : hidden;
+		}
+		.logo {
+		}
+		.logo img {
+      width : 50px;
+      display : inline-block;
+			margin: 0px 0px 0px 0px;
+      vertical-align : top;
+		}
+		.logo h2 {
+      display : inline-block;
+			margin: 0px 0px 0px 0px;
+      line-height : 1em;
+		}
+    .contacto {
+      position : relative;
+      width : 150px;
+      float : right;
+    }
+		.contacto div {
+      width : 1.1em;
+      display : inline-block;
+			margin: 0px 0px 0px 0px;
+      vertical-align : top;
+      font-size : 1.7em;
+		}
+		.contacto h3 {
+      display : inline-block;
+			margin: 0px 0px 0px 0px;
+      line-height : 1.1em;
+      color : white;
+		}
+    .table-sistema-importar {
+      width : 100%;
+      height : 40vh;
+    }
+    .table-entidad-importar {
+      width : 100%;
+      height : 40vh;
+    }
+    .table-valor-canonico-importar {
+      width : 100%;
+      height : 40vh;
+    }
+    .table-valor-sistema-importar {
+      width : 100%;
+      height : 57vh;
+    }
+    .landing-list {
+      overflow-y : scroll;
+      height : 60vh;
+    }
+    .landing-list::-webkit-scrollbar {
+          width: 5px;
+          display : inline-block;
+    }
+     
+    .landing-list::-webkit-scrollbar-track {
+          border-radius: 10px;
+          background : #CEDAE7;
+    }
+     
+    .landing-list::-webkit-scrollbar-thumb {
+          border-radius: 10px;
+          background : #85A3C2;
+    }
+    .download-manual {
+      margin : 0 0 0 0;
+    }
+    .download-manual a {
+      text-decoration : none;
+    }
+    .download-manual div {
+      display : inline-block;
+      margin-top : 0px;
+      font-size: 1.4em;
+    }
+    .download-manual h3 {
+      display : inline-block;
+      margin-top : 0px;
+      margin-bottom : 0px;
+    }
+	</style>
+</head>
+<body>
+
+	<section id="main">
+	</section>
+
+	<script src="vendor/jquery/dist/jquery.min.js"></script>
+	<script src="vendor/underscore/underscore-min.js"></script>
+	<script src="vendor/backbone/backbone-min.js"></script>
+	<script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="vendor/swig.js"></script>
+
+	<script src="js/get-template.js"></script>
+
+	<!-- Inicializacion -->
+	<script src="js/init.js"></script>
+
+	<!-- Vistas -->
+	<script src="js/views/db-explorer.js"></script>
+
+</body>
+</html>

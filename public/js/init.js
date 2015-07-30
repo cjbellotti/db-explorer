@@ -1,0 +1,2 @@
+var EnvMan = {};
+EnvMan.Views = {};
